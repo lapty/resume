@@ -3,29 +3,12 @@ body {
   font-family: "Oswald", sans-serif;
   color: dimgrey; }
 
-<<<<<<< HEAD
-.download {
-  text-align: center;
-  margin-bottom: 50px; }
-  .download a {
-    font-size: .8em;
-    color: black;
-    text-decoration: none; }
-  .download a:hover {
-    text-decoration: underline; }
-
-=======
->>>>>>> master
 .page {
   padding: 6px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-<<<<<<< HEAD
   margin-bottom: 50px;
-=======
-  margin-bottom: 100px;
->>>>>>> master
   width: 900px;
   height: 1000px;
   background-color: white;
@@ -42,6 +25,16 @@ header {
     color: #ff373c;
     margin-bottom: 0px;
     margin-right: 20px; }
+
+.download {
+  text-align: center;
+  margin-bottom: 50px; }
+  .download a {
+    font-size: .8em;
+    color: black;
+    text-decoration: none; }
+  .download a:hover {
+    text-decoration: underline; }
 
 .contact, .contactBot {
   position: relative;
