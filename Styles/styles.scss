@@ -1,0 +1,128 @@
+$serif: 'Merriweather', serif;
+$sans: 'Oswald', sans-serif;
+$red: #FF373C;
+$test: 1px red solid;
+
+body {
+    background-image:url("../p6.png");
+    font-family:$sans;
+    color:rgba(105,105,105,1);
+}
+
+.page {
+    padding:6px;
+    margin-left:auto; margin-right:auto;
+    margin-top:100px; margin-bottom:100px;
+    width:900px;
+    height:1000px;
+    background-color:white;
+    box-shadow: -3px -1px 3px rgba(0,0,0,.1);
+
+}
+
+
+
+header {
+    text-align:center;
+    margin-bottom:20px;
+    h1 {
+        text-align:right;
+        font-family:$sans;
+        letter-spacing:5px;
+        font-weight:initial;
+        color: $red;
+        margin-bottom:0px;
+        margin-right:20px;
+
+    }
+}
+
+.contact, .contactBot {
+    position:relative;
+    top:-50px;
+    width:200px;
+    margin-right:auto;
+    left:20px;
+    text-align:left;
+    a {
+        margin-left:5px;
+        text-decoration:none;
+        color:black;
+        font-size:.7em;
+        font-weight:lighter;
+        letter-spacing:1px;
+    }
+
+    a:hover {
+        text-decoration:underline;
+    }
+    i {
+        font-size:.9em;
+        color:$red;
+    }
+}
+
+.contactBot {
+    top:60px;
+    text-align:center;
+    width:100%;
+    i {
+        margin-left:20px;
+    }
+}
+
+
+h2 {
+    font-weight:initial;
+    color:$red;
+    font-size:.6em;
+    letter-spacing:1px;
+    margin-top:0;
+    width:100px;
+}
+
+p {
+    font-family:$serif;
+    font-weight:lighter;
+    font-size:.7em;
+}
+
+
+.section {
+    margin-bottom:20px;
+    h3, h4 {
+        padding:0px; margin:0px;
+        letter-spacing:1px;
+        font-size:.7em;
+        font-family:$serif;
+        span {
+            font-style:italic;
+            color:$red;
+            float:right;
+            letter-spacing:initial;
+        }
+    }
+
+
+    h4 {
+        font-style:italic;
+        margin-bottom:5px;
+    }
+}
+
+.left {
+    vertical-align:top;
+    display:inline-block;
+
+    width:150px;
+    padding-left:50px;
+}
+
+.right {
+    display:inline-block;
+    width:600px;
+    padding-left:30px;
+    p {
+        margin-top:0;
+    }
+}
